@@ -1,0 +1,62 @@
+.photo {
+    width: 150px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.info{
+    text-align: right;
+    line-height: 20px;
+}
+.name{
+    text-align: left;
+    line-height: 10px;
+}
+.descr{
+    font-size: x-large;
+    
+}
+.speciality{
+    
+    font-size: medium;
+    line-height: 5px;
+}
+.description> p{
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+.table_inf{
+    border: solid rgb(222, 51, 182);
+   
+    border-collapse: collapse;
+    border-width: 2px;
+
+}
+.technology{
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+.what_i_do{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.interesting{
+    padding: 1rem 1.5rem;
+    background: rgb(222, 51, 182); /* Синий цвет фона */
+    color: #fff; /* Белый цвет текста */
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+input {
+    background: rgb(222, 51, 182); /* Синий цвет фона */
+    color: #fff; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+   }
+.go_on { background: rgb(222, 51, 182);
+         position: relative;
+         left: 50%;
+         transform: translate(-50%, 0); }
